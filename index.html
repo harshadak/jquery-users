@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Users</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>Add User</h2>
+
+        <form>
+            <label>First Name:
+                <input id="firstName" type="text" name="firstname">
+            </label>
+            <label>Last Name:
+                <input id="lastName" type="text" name="lastname">
+            </label>
+            <label>Email Address:
+                <input id="email" type="email" name="email">
+            </label>
+            <label>Contact No.:
+                <input id="contact" type="number" name="phone">
+            </label>
+            <input type="submit" value="Add User">
+        </form>
+
+        <div class="users">
+            <table>
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email Address</th>
+                        <th>Contact #</th>
+                    </tr>
+                </thead>
+                <tbody id="user-details">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
